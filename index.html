@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	   <!-- IMPORT GOOGLE ICON FONT -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <!-- IMPORT MATERIALIZE.CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">		
+      <!-- let browers know website is optimized for mobile -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Materolize Sandbox</title>
+
+	<title></title>
+</head>
+<div class="container">
+	<!-- CAROUSEL -->
+	<h1>CAROUSEL</h1>
+	<div class="carousel">
+		<a href="#one" class=" carousel-item">
+			<img src="http://lorempixel.com/400/200/" alt="">
+		</a>
+		<a href="#two" class="carousel-item">
+			<img src="http://lorempixel.com/400/200/sports/" alt="">
+		</a>
+		<a href="#three" class="carousel-item">
+			<img src="http://lorempixel.com/400/200/sports/1/" alt="">
+		</a>
+		<a href="#four" class="carousel-item">
+			<img src="http://lorempixel.com/400/200/sports/1/Dummy-Text/" alt="">
+		</a>
+		<a href="#five" class="carousel-item">
+			<img src="http://lorempixel.com/400/200/" alt="">
+		</a>
+	</div>
+
+
+		 <!-- CAROUSEL FULL SLIDER -->
+	<h1>CAROUSEL FULL SLIDER</h1>
+	<div class="carousel carousel-slider">
+		<a href="#one!" class=" carousel-item">
+			<img src="http://lorempixel.com/g/800/400/" alt="">
+		</a>
+		<a href="#two" class="carousel-item">
+			<img src="http://lorempixel.com/800/400/sports/" alt="">
+		</a>
+		<a href="#three" class="carousel-item">
+			<img src="http://lorempixel.com/800/400/sports/1/" alt="">
+		</a>
+		<a href="#four" class="carousel-item">
+			<img src="http://lorempixel.com/800/400/sports/1/Dummy-Text/" alt="">
+		</a>
+		<a href="#five" class="carousel-item">
+			<img src="http://lorempixel.com/800/400/" alt="">
+		</a>
+	</div>
+
+	<!-- COLLAPSIBLE -->
+	<h1>COLLAPSIBLE</h1>
+	<ul class="collapsible" data-collapsible="according">
+		<li>
+			<div class="collapsible-header">
+				<i class="Material-icons">first</i>
+			</div>
+            <div class="collapsible-body">
+            	<span>lorem ipsum dolor sit amet, consetetur adipisicing elit. Eligendi, totam ?</span>
+            </div>
+		</li>
+			<li>
+			<div class="collapsible-header active">
+				<i class="Material-icons">second</i>
+			</div>
+            <div class="collapsible-body">
+            	<span>lorem ipsum dolor sit amet, consetetur adipisicing elit. Eligendi, totam ?</span>
+            </div>
+		</li>
+			<li>
+			<div class="collapsible-header">
+				<i class="Material-icons">third</i>
+			</div>
+            <div class="collapsible-body">
+            	<span>lorem ipsum dolor sit amet, consetetur adipisicing elit. Eligendi, totam ?</span>
+            </div>
+		</li>
+	</ul>
+
+	<!-- TOASTS -->
+	<h1>TOASTS </h1>
+	<a onclick="materialize.toast('post saved', 4000, 'rounded')" class="btn">Toast!</a>
+    
+
+    <!-- TOOLTIPS -->
+    <h1>TOOLTIPS</h1>
+    <a href="" class="btn tooltipped" data-position="top" data-tooltip="I am tooltip">Hover Me</a>
+     <a href="" class="btn tooltipped" data-position="bottom" data-tooltip="I am tooltip"data-delay="5000">Hover Me</a>
+      <a href="" class="btn tooltipped" data-position="left" data-tooltip="I am tooltip">Hover Me</a>
+       <a href="" class="btn tooltipped" data-position="right" data-tooltip="I am tooltip">Hover Me</a>
+
+       <!-- DROPDOWN -->
+       <h1>DROPDOWN</h1>
+       <a href="" class="dropdown-button btn" data-activates="dropdown1">dropdown</a>
+       <!-- Dropdown structure -->
+       <ul id='dropdown1' class="dropdown-content">
+	       <li><a href="#!">one</a></li>
+	       <li><a href="#!">two</a></li>
+	       <li class="divider"></li>
+	       <li><a href="#!">three</a></li>
+	       <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+	       <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+	    </ul>
+
+	    <!-- MATERIAL BOXED -->
+	    <h1>MATERIAL BOXED</h1>
+	    <img src="img/mountain-.webp" alt="" class="materialboxed" data-caption="Here is a image caption">
+
+
+        <!-- SLIDER -->
+        <h1>SLIDER</h1>
+        <div class="Slider">
+        	<ul class="slider">
+        		<li>
+        			<img src="img/nature1.jpg" alt="">
+        			<div class="caption center-align">
+        				<h3>This is our tagline</h3>
+        				<h5 class="light grey-text text-lighten-3">Here is our slogan</h5>
+        			</div>
+        		</li>
+
+        		<li>
+        			<img src="img/photo-1566909465873-e03cc632173b.jpg" alt="">
+        			<div class="caption left-align">
+        				<h3>This is our tagline</h3>
+        				<h5 class="light grey-text text-lighten-3">Here is our slogan</h5>
+        			</div>
+        		</li>
+        		
+        		<li>
+        			<img src="img/nature3.jpegs" alt="">
+        			<div class="caption right-align">
+        				<h3>This is our tagline</h3>
+        				<h5 class="light grey-text text-lighten-3">Here is our slogan</h5>
+        			</div>
+        		</li>
+        		
+        	</ul>
+        </div> 
+        
+
+        <!-- MODAL -->
+        <h1>MODAL</h1>
+
+        <!-- MODEL TRIGGERS -->
+        <a href="#modal1" class="btn waves-effect">Modal 1</a>
+        <a href="#modal2" class="btn waves-effect red">Modal 2</a>
+         
+
+        <!-- MODAL STRUCTURE -->
+        <div id="modal1" class="modal">
+        	<div class="modal-contant">
+        		<h4>Modal Header</h4>
+        		<p>A bunch of text</p>
+        	</div>
+        		<div class="modal-footer">
+        			<a href="" class="modal-action modal-close waves-effect waves-green">Button</a>
+        		</div>
+        </div>
+         <div id="modal1" class="modal2">
+        	<div class="modal-contant">
+        		<h4>Modal 2 Header</h4>
+        		<p>A bunch of text</p>
+        	</div>
+        		<div class="modal-footer">
+        			<a href="" class="modal-action modal-close waves-effect waves-green">Button</a>
+        		</div>
+        </div>
+        
+        <!-- SIDENAV -->
+        <h1>SIDENAV</h1>
+        <ul id="slide-out" class="side-nav">
+	        <li>
+	        	<a href="#"><i class="material-icons">cloud</i>link 1</a>
+	        </li>
+	        <li>
+	        	<a href="#">link 2</a>
+	        </li>
+	        <li>
+	        	<div class="divider"></div>
+	        </li>
+	        <li>
+	        	<a class="subheader" href="subheaderr"></a>
+	        </li>
+	        <li>
+	        	<a class="waves-effect" href="#">link 3</a>
+	        </li>
+        </ul>
+        <a href="" data-activates="slide-out" class="button-collapse"><i class="Material-icons">menu</i></a>
+
+        <!-- TABS -->
+        <h1>TABS</h1>
+        <div class="row">
+        	<div class="col s12">
+        		<ul class="tabs">
+        			<li class=" tab col s3"><a href="#test1">Test 1</a></li>
+        			<li class=" tab col s3"><a class="active"href="#test1">Test 2</a></li>
+        			<li class=" tab col s3 disabled"><a href="#test1">Test 3</a></li>
+        			<li class=" tab col s3"><a href="#test1">Test 4</a></li>
+        		</ul>
+        	</div>
+        	<div id="#test1" class="col s12">Test 1</div>
+        	<div id="#test2" class="col s12">Test 2</div>
+        	<div id="#test3" class="col s12">Test 3</div>
+        	<div id="#test4" class="col s12">Test 4</div>
+        </div>
+        
+        <!-- TAP TARGET  -->
+        <div class="fixed-action-btn" style="bottom: 45px;right: 24px">
+        	<a id="menu" onclick="$('.tap-target').tapTarget('open')" class="waves-effect waves-light btn btn-floting btn-large cyan">
+        		<i class="material-icons">menu</i>
+        	</a>
+        </div>
+          
+          <a onclick="$('.tap-target').tapTarget('open')" class="waves-effect waves-light btn cyan">Open Tab Target</a>
+          <a onclick="$('.tap-target').tapTarget('close')" class="waves-effect waves-light btn cyan">Close Tab Target</a>
+
+        <!-- TAP TARGET CONTENT -->
+        <div class="tap-target cyan" data-activates="menu">
+	        <div class="tap-target-content white-target">
+	        	<h5>Tap Target Content</h5>
+	        	<p class="white-text">lorem ipsum dolor sit amet, consetetur adipisicing elit. Eligendi, totam ?</p>
+	        </div>
+    	</div>
+        <
+	</div><!-- container -->
+            
+
+ 
+	<div style="500px"></div>
+
+	<body>
+
+	</body>
+
+		<!--JavaScript at end of body for optimized loading-->
+	       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js" integrity="sha256-h0cGsrExGgcZtSZ/fRz4AwV+Nn6Urh/3v3jFRQ0w9dQ=" crossorigin="anonymous"></script>
+	       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+	       <script>
+	       	$(document).ready(function() {
+	       		// Init Carousel
+	       		$('.carousel').carousel();
+
+	       		// Init Carousel Slider
+	       		$('.carousel.carousel-slider').carousel({Fullwidth:true});
+
+	       	/*	// Init Carousel Slider
+	       		$('.carousel.carousel-slider').carousel({Fullwidth:true});*/
+
+	       		// fire off toast
+	       		//materialize.toast('Hello World',3000);
+
+	       		// Init slider
+	       		$('.slider').slider();
+
+	       		// Init modal 
+	       		$('.modal').modal();
+
+	       		// sidenav
+	       		$('.button-collapse').sideNav();
+	       	});
+	       </script>
+</html>
